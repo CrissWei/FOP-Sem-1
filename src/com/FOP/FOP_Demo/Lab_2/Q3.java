@@ -13,8 +13,12 @@ public class Q3 {
 
         int sum = num1 + num2 + num3;
         double average = sum / 3.0;
-        
-        System.out.println(num1 + " " + num2 + " " + num3);
+
+        System.out.printf("%.2f", average);
+        System.out.println();
+        System.out.println("===是printf，而不是println====");
+        System.out.println(average);
+        System.out.println(num1 + " , " + num2 + " , " + num3);
         System.out.println("Sum: " + sum);
         System.out.printf("Average: %.2f", average);
     }
