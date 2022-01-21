@@ -1,4 +1,4 @@
-package com.FOP_Demo.Lab_1;
+package com.FOP.FOP_Demo.Lab_1;
 
 public class L1Q3 {
 
